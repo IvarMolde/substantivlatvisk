@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="lv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#123b3a">
+  <meta name="description" content="Interaktīvs ceļvedis norvēģu lietvārdu apguvei latviešu valodā.">
+  <title>Norvēģu lietvārdi — soli pa solim</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Pāriet uz mācību saturu</a>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Sākums"><span class="brand-mark">N</span><span>Norvēģu valoda <small>mācību ceļvedis</small></span></a>
+    <div class="top-actions"><span class="saved-status" id="savedStatus" aria-live="polite">Progress tiek saglabāts šajā ierīcē</span><button class="button button-quiet" id="resetAll" type="button">Sākt no jauna</button></div>
+  </header>
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-copy"><p class="eyebrow">NORVĒĢU VALODA · A1</p><h1>Lietvārdi,<br><em>soli pa solim.</em></h1><p class="hero-intro">Iemācies norvēģu lietvārdu dzimtes, artikulus un formas. Lasi īsus skaidrojumus, izmēģini piemērus un pārbaudi sevi.</p><a class="button button-light" href="#topic-0">Sākt mācīties <span aria-hidden="true">↓</span></a></div>
+      <div class="hero-art" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="word-card card-en"><b>en</b><span>bil</span><small>mašīna</small></div><div class="word-card card-ei"><b>ei</b><span>bok</span><small>grāmata</small></div><div class="word-card card-et"><b>et</b><span>hus</span><small>māja</small></div><span class="spark spark-a">✳</span><span class="spark spark-b">✦</span></div>
+    </section>
+    <section class="progress-panel" aria-label="Mācību progress"><div class="progress-heading"><div><p class="eyebrow">TAVS CEĻŠ</p><h2>Progress</h2></div><strong id="progressLabel">0 / 30</strong></div><div class="progress-track" role="progressbar" aria-label="Izpildītie uzdevumi" aria-valuemin="0" aria-valuemax="30" aria-valuenow="0"><span id="progressFill"></span></div><div class="topic-dots" id="topicDots"></div><p class="progress-note" id="progressNote">Atbildi uz jautājumiem, lai sāktu krāt punktus.</p></section>
+    <nav class="topic-nav" aria-label="Tēmas" id="topicNav"></nav>
+    <div id="lessons"></div>
+    <section class="finish-card" id="finish"><span class="finish-icon" aria-hidden="true">✦</span><div><p class="eyebrow">TU TO IZDARĪJI</p><h2>Lieliski pastrādāts!</h2><p>Esi izgājis visas tēmas. Atkārto jebkuru sadaļu vai sāc visu vēlreiz.</p></div><a href="#topic-0" class="button button-dark">Atkārtot sākumā ↑</a></section>
+    <footer><span>MAZI SOĻI. DROŠAS ZINĀŠANAS.</span><span>Norvēģu lietvārdi · A1</span></footer>
+  </main>
+  <noscript><p class="noscript">Lai pildītu uzdevumus un redzētu progresu, šajā lapā jābūt ieslēgtam JavaScript.</p></noscript>
+</body>
+</html>
